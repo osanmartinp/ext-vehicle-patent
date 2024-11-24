@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Consulta Patente Vehículo",
+    "description": "Una extensión para consultar la tasación y detalles de vehículos por patente.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "plate.html",
+      "default_icon": "getApi.webp"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "https://chile.getapi.cl/*"
+    ]
+  }
+  
