@@ -24,12 +24,13 @@ document.getElementById('searchBtn').addEventListener('click', function() {
           <p><strong>Marca:</strong> ${vehicle.model.brand.name}</p>
           <p><strong>Modelo:</strong> ${vehicle.model.name}</p>
           <p><strong>Año:</strong> ${vehicle.year}</p>
-          <p><strong>Color:</strong> ${vehicle.color}</p>
-          <p><strong>Motor:</strong> ${vehicle.engine} L</p>
-          <p><strong>Transmisión:</strong> ${vehicle.transmission}</p>
+          <hr>
           <p><strong>Precio Usado:</strong> $${data.data.precioUsado.precio.toLocaleString()}</p>
+          <p><strong>Precio Usado Max:</strong> $${data.data.precioUsado.banda_max.toLocaleString()}</p>
+          <p><strong>Precio Usado Min:</strong> $${data.data.precioUsado.banda_min.toLocaleString()}</p>
           <p><strong>Precio de Retoma:</strong> $${data.data.precioRetoma.toLocaleString()}</p>
           <p><strong>Precio de Tasación:</strong> $${data.data.informacionFiscal.tasacion}</p>
+          <hr>
         `;
         document.getElementById('result').innerHTML = resultHTML;
       } else {

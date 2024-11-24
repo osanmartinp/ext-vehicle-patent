@@ -8,7 +8,7 @@
     ],
     "action": {
       "default_popup": "plate.html",
-      "default_icon": "getApi.webp"
+      "default_icon": "getapi.png   "
     },
     "background": {
       "service_worker": "background.js"

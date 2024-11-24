@@ -10,7 +10,7 @@
       padding: 20px;
     }
     input[type="text"] {
-      width: 100%;
+      width: 90%;
       padding: 10px;
       margin: 10px 0;
       border: 1px solid #ccc;
@@ -34,12 +34,21 @@
   </style>
 </head>
 <body>
+  <img src="/logo.svg" alt="Logo" />
   <h2>Consulta Vehículo</h2>
-  <input type="text" id="patente" placeholder="Ingresa la patente">
+  
+  <input type="text" id="patente" maxlength="6" placeholder="Ingresa la patente">
   <button id="searchBtn">Buscar</button>
 
   <div id="result"></div>
 
   <script src="plate.js"></script>
 </body>
+<div class="footer">
+  Visítanos para más información 
+  <a href="https://getapi.cl" target="_blank" rel="noopener">getapi.cl</a>
+  <a href="https://www.buymeacoffee.com/osanmart" target="_blank" rel="noopener">
+    <img src="coffee.png" width="150" data-canonical-src="https://i.imgur.com/Opq7fSe.png" style="max-width: 100%;">
+  </a>
+</div>
 </html>
