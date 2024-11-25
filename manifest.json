@@ -3,12 +3,9 @@
     "name": "Consulta Patente Vehículo",
     "description": "Una extensión para consultar la tasación y detalles de vehículos por patente.",
     "version": "1.0",
-    "permissions": [
-      "activeTab"
-    ],
     "action": {
       "default_popup": "plate.html",
-      "default_icon": "getapi.png   "
+      "default_icon": "getapi.png"
     },
     "background": {
       "service_worker": "background.js"
