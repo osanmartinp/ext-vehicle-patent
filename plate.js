@@ -12,7 +12,8 @@ document.getElementById('searchBtn').addEventListener('click', function() {
     fetch(`https://chile.getapi.cl/v1/vehicles/appraisal/${patente}`, {
       method: 'GET',
       headers: {
-        'accept': 'application/json'
+        'accept': 'application/json',
+        'x-api-key': 'GvsxZQ3eTovJJ0WTJxhxaAtLZ0hAwwHVt8pMvn4tIwMoXHrqKMXfRouN9ZW7CfgddkLTq5yDbdZARPy55gQsWokqiKtmOPoE8dp1IfvjkQ7ttBjjoYR0bq83GAdVc8vU'
       }
     })
     .then(response => response.json())
