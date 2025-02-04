@@ -2,7 +2,8 @@
 
 ## La extensión de Chrome para conocer el valor de tu auto
 
-[![logo.svg]](www.getapi.cl)
+[![Logo de la extensión](logo.svg)](www.getapi.cl)
+
 
 ## Tabla de Contenidos
 
